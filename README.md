@@ -49,19 +49,19 @@ Website ini adalah *personal web* milik Adam Faturrachman yang menampilkan artik
 ## 📷 Screenshot Tampilan
 
 ### 1. Artikel  
-![Artikel](screenshots/artikel.png)
+![Artikel](screenshoot/artikel.png)
 
 ### 2. Galeri Foto  
-![Galeri](screenshots/gallery.png)
+![Galeri](screenshoot/gallery.png)
 
 ### 3. Tentang Saya  
-![About](screenshots/about.png)
+![About](screenshoot/about.png)
 
 ### 4. Form Login Admin  
-![Login](screenshots/login.png)
+![Login](screenshoot/login.png)
 
 ### 5. Dashboard Admin  
-![Dashboard](screenshots/admin.png)
+![Dashboard](screenshoot/admin.png)
 
 ---
 
@@ -74,26 +74,38 @@ Website ini adalah *personal web* milik Adam Faturrachman yang menampilkan artik
 
 ---
 
-## 🚀 Cara Menjalankan Aplikasi
-
-1. Clone atau download repositori ini.
-2. Jalankan XAMPP, aktifkan *Apache* dan *MySQL*.
-3. Import database dari file db_adam_d1a240046.sql ke phpMyAdmin.
-4. Buka browser dan akses:  
-   http://localhost/personal_adam_D1A240046/
-5. Login admin di:  
-   http://localhost/personal_adam_D1A240046/admin/login.php
-
----
-
 ## 📁 Struktur Folder
- make nu abang struktur folder na naon
+├── admin/
+│   ├── about.php
+│   ├── add_about.php
+│   ├── add_artikel.php
+│   ├── add_gallery.php
+│   ├── beranda_admin.php
+│   ├── cek_login.php
+│   ├── data_artikel.php
+│   ├── data_gallery.php
+│   ├── delete_about.php
+│   ├── delete_artikel.php
+│   ├── delete_gallery.php
+│   ├── edit_about.php
+│   ├── edit_artikel.php
+│   ├── edit_gallery.php
+│   ├── login.php
+│   ├── logout.php
+│   ├── proses_add_about.php
+│   ├── proses_add_artikel.php
+│   ├── proses_add_gallery.php
+│   ├── proses_edit_about.php
+│   ├── proses_edit_artikel.php
+│   └── proses_edit_gallery.php
+│
+├── images/
+├── about.php
+├── db_rafli_d1a240049.sql
+├── gallery.php
+├── index.php
+└── koneksi.php
+│
+└── uploads/         
 
-## 🙋‍♂ Tentang Pembuat
-
-> Hai, aku Adam Faturrachman.  
-> Mahasiswa aktif di Universitas Subang, Fakultas Ilmu Komputer,  
-> Program Studi Sistem Informasi – Semester 2.
-
-Website ini adalah hasil belajarku untuk memahami bagaimana kode bisa menyimpan cerita.  
-Mungkin sederhana, tapi dikerjakan dengan semangat.
+ 
